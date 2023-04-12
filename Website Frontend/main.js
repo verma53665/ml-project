@@ -152,7 +152,7 @@ function checkLogin(email,pass){
         },
         processData: false,
         type: 'POST',
-        url: 'http://localhost:8888/getUserLogin'
+        url: 'https://127.0.0.1:5000/getUserLogin'
     });
 }
 
@@ -177,7 +177,7 @@ function getHistoryData(){
         },
         processData: false,
         type: 'POST',
-        url: 'http://localhost:8888/getHistory'
+        url: 'https://127.0.0.1:5000/getHistory'
     })
 }
 
@@ -201,7 +201,7 @@ function submitDemoDetails(name,email,phone,photo,carrier,address,passwordLogin)
         },
         processData: false,
         type: 'POST',
-        url: 'http://localhost:8888/submitDemoDetails'
+        url: 'https://127.0.0.1:5000/submitDemoDetails'
     });
 
     // $.ajax({
